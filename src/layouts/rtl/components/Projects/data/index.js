@@ -1,8 +1,24 @@
 /* eslint-disable react/prop-types */
+/* eslint-disable react/function-component-definition */
+/**
+=========================================================
+* Material Dashboard 2 React - v2.2.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard-react
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
 // @mui material components
 import Tooltip from "@mui/material/Tooltip";
 
-// Soft UI Dashboard React components
+// Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
@@ -65,7 +81,7 @@ export default function data() {
 
     rows: [
       {
-        المشروع: <Company image={logoXD} name="Soft UI الإصدار" />,
+        المشروع: <Company image={logoXD} name="إصلاح أخطاء النظام الأساسي" />,
         أعضاء: (
           <MDBox display="flex" py={1}>
             {avatars([
